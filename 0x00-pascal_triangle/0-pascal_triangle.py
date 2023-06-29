@@ -13,11 +13,8 @@ def pascal_triangle(n):
         for i in range(1, n + 1):
             row = []
             coeff = 1
-            
             for j in range(1, i + 1):
                 row.append(coeff)
                 coeff = coeff * (i - j) // j
-            
             triangle.append(row)
-    
     return triangle
