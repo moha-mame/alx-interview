@@ -8,7 +8,6 @@ def pascal_triangle(n):
     """Create a function def pascal_triangle(n)
     """
     triangle = []
-    
     if n > 0:
         for i in range(1, n + 1):
             row = []
