@@ -3,6 +3,8 @@
 Pascal's Triangle
 """
 def pascal_triangle(n):
+        """Create a function def pascal_triangle(n)
+    """
     triangle = []
     
     if n > 0:
