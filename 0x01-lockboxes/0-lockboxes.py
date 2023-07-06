@@ -1,4 +1,10 @@
+#!/usr/bin/python3
+'''A module for working with lockboxes.
+'''
+
+
 from collections import deque
+
 
 def canUnlockAll(boxes):
     n = len(boxes)
