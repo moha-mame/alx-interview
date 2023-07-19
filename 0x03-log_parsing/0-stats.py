@@ -35,7 +35,7 @@ def main():
                     total_file_size += int(parsed_line[0])  # file size
                     code = parsed_line[1]  # status code
 
-                    if code in status_codes:
+                    if (code in status_codes.keys()):
                         status_codes[code] += 1
 
                 if counter == 10:
