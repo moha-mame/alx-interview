@@ -22,7 +22,6 @@ def print_statistics(status_codes, total_file_size):
 total_file_size = 0
 code = 0
 counter = 0
-status_codes 
 status_codes = {"200": 0,
                "301": 0,
                "400": 0,
