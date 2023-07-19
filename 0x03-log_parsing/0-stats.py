@@ -41,12 +41,5 @@ def main():
                 if counter == 10:
                     print_statistics(status_codes, total_file_size)
                     counter = 0
-
-    except KeyboardInterrupt:
-        pass
     finally:
         print_statistics(status_codes, total_file_size)
-
-
-if __name__ == "__main__":
-    main()
