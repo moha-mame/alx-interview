@@ -45,4 +45,4 @@ try:
                 counter = 0
 
 finally:
-    print_statistics(status_codes, total_file_size)      
+    print_statistics(status_codes, total_file_size)   
