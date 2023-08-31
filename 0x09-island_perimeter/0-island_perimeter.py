@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-"""Island perimeter.
-"""
+"""Island perimeter."""
+
+
 def island_perimeter(grid):
-"""the perimeter of an island described in grid
-"""
+    """the perimeter of an island described in grid
+    """
         perimeter = 0
     if type(grid) != list:
         return 0
     n = len(grid)
+
     for i, row in enumerate(grid):
         m = len(row)
         for j, cell in enumerate(row):
